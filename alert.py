@@ -130,7 +130,7 @@ def sendMessage(body, pref):
 	try:
 		client.messages.create(
 			to=phoneNumber,
-			from_=pref['twilio_phone'],
+			from_=os.environ['TWILIO_PHONE'],
 			body=body
 		)
 		sys.exit()

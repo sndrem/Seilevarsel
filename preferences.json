@@ -1,0 +1,9 @@
+{
+	"openWeatherApiKey": "a7a70788648a9bb8987c50b78a661674",
+	"bergenCityCode": "3161733",
+	"name": "Sindre",
+	"windPrefMin": 4,
+	"windPrefMax": 15,
+	"tempPrefMin": 5,
+	"tempPrefMax": 50
+}
