@@ -1,5 +1,7 @@
 # Wind-alert
 
+Script for notifying a phone number with wind forecast for Bergen, Norway a little week into the future. 
+
 ## Prerequisities
 * Your phone number, set to environment variable = PHONE_NUMBER
 * A twilio account_sid, set to environment variable = TWILIO_ACCOUNT_SID
