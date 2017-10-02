@@ -59,8 +59,6 @@ def checkWeather(data, pref):
 
 	windOkay = (actualWindForecast >= windPrefMin and actualWindForecast <= windPrefMax)
 	tempOkay = (actualTempForecast >= tempPrefMin and actualTempForecast <= tempPrefMax)
-	print("Wind okay?:" + str(windOkay))
-	print("Temp okay?:" + str(tempOkay))
 
 	shouldSendMessage = checkLog(lastForecast, pref)
 	if(windOkay and tempOkay):
